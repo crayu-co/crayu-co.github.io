@@ -2,24 +2,36 @@
 <div class="navigation">
 <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
 <ul class="menu">
-<li class="menu__entry"><a href="{{ '/resume' | prepend: site.baseurl }}">Resume</a></li>
+<li class="menu__entry"><a href="{{ '/index' | prepend: site.baseurl }}">Home</a></li>
+<li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a></li>
+<li class="menu__entry"><a href="{{ '/gallery' | prepend: site.baseurl }}">Gallery</a></li>
 <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
 </ul>
 </div>
 <ul class="social-links">
+{% if site.author.twitter %}
+<a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+{% endif %}
+{% if site.author.youtube %}
+<a href="https://youtube.com/c/{{ site.author.youtube }}" class="social-links__entry" target="_blank">
+<i class="fa fa-youtube"></i>
+</a>
+{% endif %}
+{% if site.author.soundcloud %}
+<a href="https://soundcloud.com/{{ site.author.soundcloud }}" class="social-links__entry" target="_blank">
+<i class="fa fa-soundcloud"></i>
+</a>
+{% endif %}
+{% if site.author.tumblr %}
+<a href="https://tumblr.com/{{ site.author.tumblr }}" class="social-links__entry" target="_blank">
+<i class="fa fa-tumblr"></i>
+</a>
+{% endif %}
 {% if site.author.email %}
 <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
 <i class="fa fa-envelope-square"></i>
-</a>
-{% endif %}
-{% if site.author.github %}
-<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-<i class="fa fa-github"></i>
-</a>
-{% endif %}
-{% if site.author.linkedin %}
-<a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-<i class="fa fa-linkedin"></i>
 </a>
 {% endif %}
 </ul>

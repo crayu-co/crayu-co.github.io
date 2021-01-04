@@ -58,7 +58,7 @@
   .logo {
     font-size: 300%;
     font-weight: 700;
-    color: #222A30;
+    color: #FFF;
     display: block; }
 
   .menu {
@@ -142,6 +142,7 @@
   .about__devider {
     font-size: 100%;
     letter-spacing: 9.09px; }
+	color: rgb(130, 130, 130);
 
   .about__text {
     font-size: 100%; }

@@ -5,10 +5,12 @@ description: >
 baseurl: ''
 url: ''
 author:
-  fullname: Pudhina
-  github: github
-  linkedin: linkedin
-  email: example@email.com
+  fullname:
+  twitter: Crayu_
+  youtube: Crayu_
+  soundcloud: crayu
+  tumblr: crayuuu
+  email: contact@crayu.co
 highlightstyle: agate
 styles:
   - agate

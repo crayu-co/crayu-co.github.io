@@ -10,7 +10,5 @@ sitemap:
 
 <div id="describe-text">
 	<p>I mostly play video games, but occasionally work on creative projects for myself and with friends.</p>
-	<div class="about__devider">*****</div>
-	<p><strong>Featured Projects</strong></p>
-	<p><strong>Featured Posts</strong></p>
+	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
 </div>
