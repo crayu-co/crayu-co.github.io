@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Crayu
 subtitle:
 sitemap:
   priority: 0.9
