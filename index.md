@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello
-subtitle: I'm Crayu
+title: 
+subtitle:
 sitemap:
   priority: 0.9
 ---
