@@ -1,9 +1,14 @@
-title: Crayu
+title: Pudhina
 description: >
+  A simple, minimal Jekyll theme for a personal web page and blog, focusing on
+  white space and readability
 baseurl: ''
 url: ''
 author:
-  fullname: Crayu
+  fullname: Pudhina
+  github: github
+  linkedin: linkedin
+  email: example@email.com
 highlightstyle: agate
 styles:
   - agate
